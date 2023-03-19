@@ -1,7 +1,8 @@
 const express = require('express');
 
 const router = express.Router()
-
+const morgan = require('morgan');
+router.use(morgan('tiny'))
 module.exports = router;
 const Model = require('../model/model');
 //test endpoint
