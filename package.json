@@ -1,0 +1,26 @@
+{
+  "name": "employee-manager",
+  "version": "1.0.0",
+  "description": " employee management system",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfman456/shiny-fishstick.git"
+  },
+  "author": "paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolfman456/shiny-fishstick/issues"
+  },
+  "homepage": "https://github.com/wolfman456/shiny-fishstick#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2",
+    "nodemon": "^2.0.21"
+  }
+}
